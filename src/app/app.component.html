@@ -1,0 +1,51 @@
+<div class="flex md:mb-8 md:mt-2 md:flex-1 h-[30px] ml-4">
+  @if(mostrar) {
+  <ul class="flex">
+    <li>
+      <a
+        routerLink="/quienesSomos"
+        routerLinkActive="active-link"
+        class="md:ml-4 relative flex items-center gap-2  bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        >Quienes somos</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/preguntas"
+        routerLinkActive="active-link"
+        class="md:ml-4 relative flex items-center gap-2  bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        >Preguntas frecuentes</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/juegos-disponibles"
+        routerLinkActive="active-link"
+        class="md:ml-4 relative flex items-center gap-2  bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        >Juegos Disponibles</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/contratar"
+        routerLinkActive="active-link"
+        class="md:ml-4 relative flex items-center gap-2  bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        >Contratar</a
+      >
+    </li>
+     <li (click)="Discord()">
+      <a class="md:ml-4 relative flex items-center gap-2  bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        ><span class="pi pi-discord"></span>Unete a nuestro discord</a
+      >
+    </li>
+  </ul>
+  }
+ 
+  <button
+    class="md:ml-4 border border-blue-300 w-[41px] h-[41px] rounded-3xl shadow-[0_10px_25px_rgba(0,0,0,0.15)] bg-[rgba(83,85,153,0.1)]"
+    (click)="ActivarMenu()"
+  >
+    <span class="pi pi-bars text-blue-300"></span>
+  </button>
+</div>
+ <router-outlet></router-outlet>

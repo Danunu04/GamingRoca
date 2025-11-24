@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Minecraft",
+    "imagen": "1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Rust",
+    "imagen": "2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "CS:GO",
+    "imagen": "3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Project Zomboid",
+    "imagen": "4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Terraria",
+    "imagen": "5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Garry's Mod",
+    "imagen": "6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Team Fortress 2",
+    "imagen": "7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Factorio",
+    "imagen": "8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Stardew Valley",
+    "imagen": "9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Skyrim",
+    "imagen": "10.jpg"
+  }
+]

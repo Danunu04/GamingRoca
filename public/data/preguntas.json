@@ -1,0 +1,54 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué juegos puedo alojar en sus servidores?",
+      "respuesta": "Ofrecemos soporte para la mayoría de los juegos."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Puedo modificar los recursos del servidor?",
+      "respuesta": "Sí. Podés escalar memoria RAM, almacenamiento y cantidad de jugadores en cualquier momento sin perder archivos ni configuraciones."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué tipo de acceso recibo al servidor?",
+      "respuesta": "Acceso completo mediante panel de control web, FTP/SFTP y consola de comandos. También podés activar acceso SSH en planes avanzados."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Puedo instalar mods, plugins o mapas personalizados?",
+      "respuesta": "Sí, permitimos la carga de mods, plugins, configuraciones personalizadas y paquetes de recursos. El servidor soporta instalaciones manuales y automáticas según el juego."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cómo funcionan los backups?",
+      "respuesta": "Realizamos copias automáticas diarias y podés generar backups manuales desde el panel. Los backups se almacenan en un espacio independiente y están disponibles para restauración inmediata."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿El servidor se cae si hay muchos jugadores?",
+      "respuesta": "No. Nuestros servidores escalan automáticamente su capacidad para garantizar estabilidad y rendimiento incluso en picos de uso."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué latencia puedo esperar?",
+      "respuesta": "La latencia suele ser menor a 20 ms dentro de Argentina, y menor a 60 ms en países limítrofes, gracias a nuestra infraestructura pensada para gaming."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Qué pasa si necesito más slots para jugadores?",
+      "respuesta": "Podés aumentar slots desde el panel sin reiniciar el servidor y sin perder progreso. El cambio es inmediato."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Tienen atención al cliente?",
+      "respuesta": "Sí, brindamos soporte 24/7 por WhatsApp, Discord y tickets. También ofrecemos asistencia para instalación de mods y configuraciones personalizadas."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué pasa si el servidor deja de funcionar?",
+      "respuesta": "Nuestro sistema detecta caídas y reinicia el servidor automáticamente. En caso de error crítico, un técnico interviene manualmente."
+    }
+  ]
+}
