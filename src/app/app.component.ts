@@ -26,4 +26,8 @@ export class AppComponent {
   Discord():void{
     window.open("https://discord.gg/JRSZJdAaAG","_blank");
   }
+
+  ig():void{
+    window.open("https://www.instagram.com/dana.it18?igsh=MWJid25kamsyb25zbw%3D%3D&utm_source=qr","_blank");
+  }
 }
