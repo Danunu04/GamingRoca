@@ -39,6 +39,12 @@
         ><span class="pi pi-discord"></span>Unete a nuestro discord</a
       >
     </li>
+    <li (click)="ig()">
+      <a
+        class="md:ml-4 relative flex items-center gap-2 bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-white/40 rounded-2xl px-4 py-2 text-white font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
+        >Created by Dana IT</a
+      >
+    </li>
   </ul>
   }
 
@@ -50,9 +56,4 @@
   </button>
 </div>
 <router-outlet></router-outlet>
-<div
-  (click)="ig()"
-  class="mt-5 w-full text-center p-4bg-[rgba(14,20,48,0.56)] backdrop-blur-md border border-blue-200/40 rounded-2xl px-4 py-2 font-medium shadow-[0_10px_25px_rgba(0,0,0,0.15)] text-white hover:bg-blue-500/20 transition before:absolute before:inset-x-4 before:-bottom-1.5 before:h-2 before:rounded-full before:bg-blue-900/30 before:blur-xl"
->
-  Created by Dana IT
-</div>
+
