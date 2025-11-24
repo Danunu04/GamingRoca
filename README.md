@@ -1,5 +1,10 @@
 # GamingRoca
 
+To install all the dependencies run
+```bash
+npm i
+```
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
 
 ## Development server
